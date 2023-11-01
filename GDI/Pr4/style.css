@@ -62,13 +62,19 @@
     right: 180px
 }
 
-.search{
+.push-buton{
     position: absolute;
     top: 15px;
     right: 20px;
     cursor: pointer;
 }
-.search:active{
+.push-buton:active{
+    transform: scale(0.96);
+}
+.push-buton-2{
+    cursor: pointer;
+}
+.push-buton-2:active{
     transform: scale(0.96);
 }
 
@@ -98,4 +104,12 @@
 	background-color: #d3d3d3;
 	border-left: 2px #d3d3d3;	
     transform: scale(0.96);
+}
+
+footer{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	top: 500px
 }
