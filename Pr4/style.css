@@ -46,6 +46,16 @@
     left: 0;
 }
 
+.side-button-2 {
+    position: absolute;
+    top: 15px;
+    right: 300px;
+    cursor: pointer;
+}
+.side-button-2:active{
+    transform: scale(0.96);
+}
+
 .logo{
     position: absolute;
     top: 8px;
