@@ -88,7 +88,7 @@
 }   
 .list:focus {
     color: #7E7E82;
-	box-shadow: -4px 0px 0px 0px #30b6a0
+	border-left: solid 4px #30b6a0
 }
 .list:hover {
 	background-color: #d3d3d3;
@@ -96,6 +96,6 @@
 }
 .list:active {  
 	background-color: #d3d3d3;
-	border-left: 2px #d3d3d3;
+	border-left: 2px #d3d3d3;	
     transform: scale(0.96);
 }
