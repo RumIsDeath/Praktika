@@ -21,18 +21,14 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
     align-items: center;
-    width: 320px;
-    height: 88px;
-    flex-shrink: 0;
     background: #FFF;
+    margin-right: 10px;
 }
 
 .stick{
-    width: 2px;
+    width: 2px; 
     height: 32px;
-    flex-shrink: 0;
     border-radius: 1px;
     background: #EAEAEA;
 }
