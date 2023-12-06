@@ -7,8 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="checkbox" id="side-checkbox"> 
+
+    <div class="side-panel">
+        <label class="side-button-2" for="side-checkbox"><img src="./img/burger.svg" alt="not found"></label>
+        <label class="logo-bar"><img src="./img/Group.svg" alt="not found"></label>
+        <label class="push-buton"><img src="./img/search.svg" alt="not found"></label>
+        <button class="list">Ремонт техники</button>
+        <button class="list">Услуги и сервисы</button>
+        <button class="list">Корпаротивным клиентам</button>
+        <button class="list">Продовцам техники</button>
+        <button class="list">Партнёрам</button>
+        <button class="list">Производителям</button>
+        <button class="list">Наши сервисные центры</button>
+        <button class="list">Контакты</button>
+        <footer>
+            <div class="footer-icon">
+                <img src="img/chat copy.svg" class="push-buton-2">
+                <img src="img/chat.svg" class="push-buton-2">
+                <img src="img/profile.svg" class="push-buton-2">
+            </div>
+            <div class="footer-contact">
+                <p>mail@cps.com</p>
+                <p>8 800 890 8900</p>
+            </div>
+            <div class="footer-lang">
+                <p> RU EN CH </p>
+            </div>
+        </footer>
+    </div>
+
     <div class="header">
-        <img src="./img/burger.svg" alt="notfound" class="header-content">
+        <div>
+            <label class="btn" for="side-checkbox">
+                <div class="side-b side-open">
+                    <img src="./img/burger.svg" alt="notfound" class="header-content">
+                </div>
+            </label>
+        </div>
         <img src="./img/Group.svg" alt="notfound" class="header-content">
         <div class="stick header-content"></div>
         <img src="./img/repair.svg" alt="notfound" class="header-content">
@@ -48,5 +84,155 @@
         <p class="text">Ремонт техники различных брендов</p>
     </div>
 
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <swiper-container>
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap.png" alt="notfound" class="logo">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap (1).png" alt="notfound" class="logo">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap (2).png" alt="notfound" class="logo">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap (3).png" alt="notfound">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap (4).png" alt="notfound" class="logo">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider"><div class="box-slider-content">
+            <img src="./img/Bitmap (5).png" alt="notfound" class="logo">
+            <img src="./img/strelka_more.svg" alt="not found" class="touch">
+        </div>
+    </swiper-slide>
+        <swiper-slide class="box-slider">
+                <div class="box-slider-content">
+                <img src="./img/Bitmap (6).png" alt="notfound">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide> 
+        <swiper-slide class="box-slider">
+            <div class="box-slider-content">
+                <img src="./img/Bitmap (7).png" alt="notfound">
+                <img src="./img/strelka_more.svg" alt="not found" class="touch">
+            </div>
+        </swiper-slide>
+    </swiper-container>
+
+    <div class="block-slider">
+        <p class="text">Ремонт различных видов техники</p>
+    </div>
+
+    <swiper-container>
+        <swiper-slide class="box-slider-1">
+            <div class="box-slider-content-1">
+                <p class="slider-text">Ремонт ноутбуков</p>
+                <img src="./img/strelka_more.svg" alt="not found" class="strelka touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-1">
+            <div class="box-slider-content-1">
+                <p class="slider-text">Ремонт планшетов</p>
+                <img src="./img/strelka_more.svg" alt="not found" class="strelka touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-1">
+            <div class="box-slider-content-1">
+                <p class="slider-text">Ремонт ПК</p>
+                <img src="./img/strelka_more.svg" alt="not found" class="strelka-1 touch">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-1">
+            <div class="box-slider-content-1">
+                <p class="slider-text">Ремонт мониторов</p>
+                <img src="./img/strelka_more.svg" alt="not found" class="strelka touch">
+            </div>
+        </swiper-slide>
+    </swiper-container>
+
+    <div class="block-slider">
+        <p class="text">Цены на услуги</p>
+    </div>
+
+    <swiper-container>
+        <swiper-slide class="box-slider-2">
+            <div class="box-slider-content-2">
+                <p class="slider-zagolovok">Ремонтные услуги</p>
+                <p class="slider-text">Диагностика</p>
+                <p class="slider-zagolovok">Цена</p>
+                <p class="slider-text">Бесплатно</p>
+                <p class="slider-zagolovok">Срок</p>
+                <span class="slider-text">30 мин</span>
+                <img src="./img/Group 10.png" alt="not found" class="button">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-2">
+            <div class="box-slider-content-2">
+                <p class="slider-zagolovok">Ремонтные услуги</p>
+                <p class="slider-text">Замена дисплея</p>
+                <p class="slider-zagolovok">Цена</p>
+                <p class="slider-text">1000₽</p>
+                <p class="slider-zagolovok">Срок</p>
+                <span class="slider-text">30-120 мин</span>
+                <img src="./img/Group 10.png" alt="not found" class="button">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-2">
+            <div class="box-slider-content-2">
+                <p class="slider-zagolovok">Ремонтные услуги</p>
+                <p class="slider-text">Замена полифонического динамика</p>
+                <p class="slider-zagolovok">Цена</p>
+                <p class="slider-text">1000₽</p>
+                <p class="slider-zagolovok">Срок</p>
+                <span class="slider-text">30-120 мин</span>
+                <img src="./img/Group 10.png" alt="not found" class="button">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-2">
+            <div class="box-slider-content-2">
+                <p class="slider-zagolovok">Ремонтные услуги</p>
+                <p class="slider-text">Тестирование с выдачей технического заключения</p>
+                <p class="slider-zagolovok">Цена</p>
+                <p class="slider-text">1000₽</p>
+                <p class="slider-zagolovok">Срок</p>
+                <span class="slider-text">30-120 мин</span>
+                <img src="./img/Group 10.png" alt="not found" class="button">
+            </div>
+        </swiper-slide>
+        <swiper-slide class="box-slider-2">
+            <div class="box-slider-content-2">
+                <p class="slider-zagolovok">Ремонтные услуги</p>
+                <p class="slider-text">Замена программного обеспечения</p>
+                <p class="slider-zagolovok">Цена</p>
+                <p class="slider-text">1000₽</p>
+                <p class="slider-zagolovok">Срок</p>
+                <span class="slider-text">30-120 мин</span>
+                <img src="./img/Group 10.png" alt="not found" class="button">
+            </div>
+        </swiper-slide>
+    </swiper-container>
+    <p class="text-comerc">Получить коммерческое предложение</p>
+    <img src="./img/more.svg">
+    <div class="footer-line"></div>
+    <p class="footer-text">© 2019 CPS Разработано командой Apesong </p>
+    <p class="footer-text">Политика конфиденциальности</p>
+    <p class="footer-text">Информация, размещенная на данной странице, не является публичной офертой</p>
 </body>
 </html> 

@@ -375,6 +375,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background: #FFF;
+    box-shadow: 0px 1px 0px 0px #B8FFEC;
 }
 
 .stick{
@@ -387,6 +388,129 @@ body{
 .header-content{
     margin-top: 24px;
     margin-bottom: 24px;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+.header-content:active {
+    transform: scale(0.96);
+}
+
+#side-checkbox {
+	display: none;
+}
+
+.side-panel {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: -360px;
+	background: #FFF;
+	transition: all 0.5s;
+	width: 320px;
+	height: 100vh;
+  	color: #000000;
+	padding: 40px 20px;
+}
+
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+.btn:focus-visible {
+	box-shadow: 0 0 0 2px #666;
+}
+
+.btn:hover {
+	background-color: #DBE7F2;
+}
+
+.btn:active {
+	transform: scale(0.96);
+}
+
+
+#side-checkbox:checked+.side-panel {
+	left: 0;
+}
+
+.side-button-2 {
+	position: absolute;
+	top: 15px;
+	right: 300px;
+	cursor: pointer;
+}
+
+.side-button-2:active {
+	transform: scale(0.96);
+}
+
+.logo-bar {
+	position: absolute;
+	top: 8px;
+	right: 180px
+}
+
+.push-buton {
+	position: absolute;
+	top: 15px;
+	right: 65px;
+	cursor: pointer;
+}
+
+.push-buton:active {
+	transform: scale(0.96);
+}
+
+.push-buton-2 {
+	cursor: pointer;
+}
+
+.push-buton-2:active {
+	transform: scale(0.96);
+}
+
+.list {
+  font-family: TTLakes-Regular;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 30px;
+	margin: 40px 0 -30px 0;
+	border-radius: 1px;
+	border: none;
+	line-height: 38px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.list:focus {
+	color: #7E7E82;
+	border-left: solid 4px #30b6a0
+}
+
+.list:hover {
+	background-color: #d3d3d3;
+	border-left: 2px #d3d3d3;
+}
+
+.list:active {
+	background-color: #d3d3d3;
+	border-left: 2px #d3d3d3;
+	transform: scale(0.96);
+}
+
+footer {
+	font-family: TTLakes-Regular;
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	top: 500px
 }
 
 .title{
@@ -505,6 +629,8 @@ input:checked ~ .text-hide {
 }
 
 .block-slider{
+  display: flex;
+  justify-content: left;
   width: 320px;
   height: 80px;
   flex-shrink: 0;
@@ -515,6 +641,127 @@ input:checked ~ .text-hide {
 .block-slider .text{
   text-transform: uppercase;
   color: #7E7E82  ;
+}
+
+swiper-container{
+  margin: 16px;
+}
+
+.box-slider{
+  width: 240px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #EAEAEA;
+  background: #FFF;
+}
+
+.box-slider-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.logo{
+  height: 33px;
+}
+
+.box-slider-content-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: 0;
+  font-family: TTLakes-Regular;
+  margin-top: 16px;
+}
+
+.box-slider-1{
+  width: 240px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #EAEAEA;
+  background: #FFF;
+}
+
+.slider-text{
+  margin: 0 0;
+  margin-left: 16px;
+  font-family: TTLakes-Regular;
+  color: #1B1C21;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.2px;
+}
+
+.slider-zagolovok{
+  margin: 0 0;
+  margin-top: 16px;
+  margin-left: 16px;
+  color: #7E7E82;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  font-family: TTLakes-Regular;
+}
+
+.strelka{
+  margin: 82px 0px 0px 100px;
+}
+.strelka-1{
+  margin: 82px 0px 0px 150px;
+}
+
+.touch{
+  touch-action: manipulation;
+}
+
+.touch:active {
+    transform: scale(0.96);
+}
+
+.box-slider-2{
+  width: 260px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FFF;
+}
+
+.button{
+  margin-left: 28px;
+  width: 119px;
+  height: 32px;
+  flex-shrink: 0;
+  touch-action: manipulation;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.text-comerc{
+  font-family: TTLakes-Medium;
+}
+
+.footer-line{
+  width: 320px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #D9FFF5;
+}
+
+.footer-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: TTLakes-Regular;
+  text-align: center;
+  margin-top: 16px;
 }
 
 @media screen and (min-width: 1060px){
