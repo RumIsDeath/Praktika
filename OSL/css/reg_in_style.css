@@ -38,7 +38,7 @@ input[type="button"] {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #4CAF50;
+    background-color: #2044FF;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -48,5 +48,5 @@ input[type="button"] {
 input[type="submit"]:hover,
 input[type="button"]:hover {
     margin-top: 10px;
-    background-color: #45a049;
+    background-color: #2044FF;
 }
