@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОСЛ</title>
+    <link rel="stylesheet" type="text/css" href="css/standart_style.css">
+    <link rel="stylesheet" type="text/css" href="css/reg_in_style.css">
+</head>
+<body>
+    <h1>Вход в аккаунт</h1>
+
+    <form action="login.php" method="post">
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Войти">
+        <input type="button" value="Вернуться на главную" onclick="window.location.href='index.html'">
+    </form>
+</body>
+</html>
