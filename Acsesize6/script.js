@@ -34,6 +34,27 @@
 //     }
 // }
 
+//------------------- №3 -------------------
+
+// function getDivisorsCount(numer){
+//     let count = 1
+//     let answer = []
+//     while(count!=numer){
+//         if(numer%count == 0){
+//             answer.push(count)
+//         }
+//         count+=1
+//     }
+//     answer.push(numer)
+//     return answer
+// }
+
+// console.log('Делители - ', getDivisorsCount(4))
+// console.log('Делители - ', getDivisorsCount(5))
+// console.log('Делители - ', getDivisorsCount(12))
+
+
+
 
 
 
